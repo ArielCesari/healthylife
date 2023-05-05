@@ -112,13 +112,30 @@ a:hover {
 
 
 
-
-
-
-
-
-@media (min-width: 481px) {
+@media (max-width: 346px) {
   /* Celular */
+
+
+  .nav-bar{
+     display:contents
+  }
+
+}
+
+
+
+
+@media (max-width: 580px) {
+  /* Celular */
+
+  img{
+    width: 30px;
+    
+    border-radius: 30px;
+  }
+  .nav-bar{
+    font-size: xx-small;
+  }
 
 }
 
