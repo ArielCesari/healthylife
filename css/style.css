@@ -3,9 +3,10 @@
 }
 
 html {
+  
   font-family:
-    'Montserrat', sans-serif;
-  background-color: beige;
+    Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lavender;
   color: grey;
   margin: 10px;
 
