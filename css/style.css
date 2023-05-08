@@ -46,6 +46,7 @@ a:hover {
 
 .titular {
   text-align: center;
+  padding-top: 20px ;
 }
 
 .titular-2 {
@@ -111,6 +112,23 @@ a:hover {
 
 
 }
+
+.contenedor-footer{
+
+  display: flex;
+  justify-content:space-between;
+  border-top: solid 1px grey;
+  
+}
+
+.ul-iconos{
+  display: flex;
+ }
+
+footer ul {
+  list-style:none;
+}
+
 
 
 
