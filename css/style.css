@@ -3,7 +3,7 @@
 }
 
 html {
-  
+
   font-family:
     Verdana, Geneva, Tahoma, sans-serif;
   background-color: lavender;
@@ -46,7 +46,7 @@ a:hover {
 
 .titular {
   text-align: center;
-  padding-top: 20px ;
+  padding-top: 20px;
 }
 
 .titular-2 {
@@ -113,20 +113,20 @@ a:hover {
 
 }
 
-.contenedor-footer{
+.contenedor-footer {
 
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   border-top: solid 1px grey;
-  
+
 }
 
-.ul-iconos{
+.ul-iconos {
   display: flex;
- }
+}
 
 footer ul {
-  list-style:none;
+  list-style: none;
 }
 
 
@@ -144,8 +144,9 @@ footer ul {
     display: none;
 
   }
-  .img{
-   
+
+  .img {
+
     height: auto;
   }
 
@@ -166,7 +167,7 @@ footer ul {
 
   .nav-bar {
     font-size: xx-small;
-    
+
   }
 
   .img-avena {
