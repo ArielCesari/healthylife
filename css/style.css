@@ -4,8 +4,7 @@
 
 html {
 
-  font-family:
-    Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: lavender;
   color: grey;
   margin: 10px;
@@ -16,7 +15,7 @@ main {
   margin: 10px;
 }
 
-.img {
+.img-header {
 
   width: 100%;
   height: auto;
