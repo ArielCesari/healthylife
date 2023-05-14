@@ -6,7 +6,7 @@ html {
 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: lavender;
-  color: grey;
+  color:  gray;
   margin: 10px;
 
 }
@@ -128,6 +128,20 @@ footer ul {
   list-style: none;
 }
 
+.foto-lista{
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+
+
+}
+
+.lista-pasos{
+
+   margin-bottom: 20px;
+}
+
+
 
 
 
@@ -149,6 +163,11 @@ footer ul {
     height: auto;
   }
 
+  .foto-lista{
+    display: none;
+
+
+}
 
 }
 
@@ -156,7 +175,7 @@ footer ul {
 
 
 @media (max-width: 1040px) {
-  /* Celular */
+  
 
   img {
     width: 30px;
@@ -169,10 +188,12 @@ footer ul {
 
   }
 
-  .img-avena {
+  .img-avena, .foto-lista{
     display: none;
 
 
   }
+
+
 
 }
