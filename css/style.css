@@ -18,8 +18,8 @@ main {
 .img-header {
 
   width: 100%;
-  height: auto;
   border-radius: 30px;
+  height: 400px;
 }
 
 
@@ -147,9 +147,8 @@ footer ul {
   width: 600px;
   border: solid 1px grey;
   
-
-
 }
+
 
 .lista-pasos{
 
@@ -157,7 +156,35 @@ footer ul {
 }
 
 
+.foto-tipsalud{
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  width: 600px;
+  border: solid 1px grey;
+  
+  
 
+}
+
+.container-tipsalud{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container-tipsalud button {
+background-color: cornflowerblue;
+color: #ffffff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+
+
+}
 
 
 
@@ -185,11 +212,15 @@ footer ul {
   }
 
   .foto-lista{
-    display: none;
+   width: auto;
+   height: auto;
 
 
 }
 
+.img-header{
+  height: auto;
+}
 
 
 }
