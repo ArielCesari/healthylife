@@ -114,10 +114,12 @@ a:hover {
 
 .img-avena {
 
-  padding: 3px;
+  border-radius: px;
   margin: 10px;
-
-
+  padding: 20px;
+  width: 600px;
+  border: solid 1px grey;
+  
 }
 
 
@@ -126,6 +128,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   border-top: solid 1px grey;
+  
 
 }
 
@@ -168,7 +171,7 @@ footer ul {
   }
 
   .img-avena {
-    display: none;
+    width: 50%;
 
   }
 
@@ -177,11 +180,17 @@ footer ul {
     height: auto;
   }
 
+  header{
+    width: 100%;
+  }
+
   .foto-lista{
     display: none;
 
 
 }
+
+
 
 }
 
