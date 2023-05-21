@@ -18,6 +18,6 @@ La temática de mi proyecto está basada en mi forma de vida. Me gusta comer san
 
 Aquí encontraras consejos, recetas saludables y mucho amor, que nunca debe faltar. 
 
-¡Sean todos Bienvenidos! ツ 
+¡Sean tod@s Bienvenid@s! ツ 
 
 
