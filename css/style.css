@@ -114,11 +114,11 @@ a:hover {
 
 .img-avena {
 
-  border-radius: px;
+  border-radius: 30px;
   margin: 10px;
   padding: 20px;
   width: 600px;
-  border: solid 1px grey;
+  border: solid 3px grey;
   
 }
 
@@ -145,7 +145,7 @@ footer ul {
   margin: 10px;
   padding: 20px;
   width: 600px;
-  border: solid 1px grey;
+  border: solid 3px grey;
   
 }
 
@@ -161,7 +161,7 @@ footer ul {
   margin: 10px;
   padding: 20px;
   width: 600px;
-  border: solid 1px grey;
+  border: solid 3px grey;
   
   
 
@@ -189,7 +189,7 @@ cursor: pointer;
 .img-grafico{
   border-radius: 300px;
   width: 600px;
-  border: solid 1px grey;
+  border: solid 3px grey;
   padding: 30px;
   margin: 40px 0 50px 0;
 
@@ -218,6 +218,22 @@ cursor: pointer;
   border:solid 1px black;
   color: black;
   transition: transform 0.3s ease-in-out;
+  
+  }
+
+  .imagenes-frases{
+
+    display: flex;
+    
+  }
+
+  .img-item{
+
+    width: 30%;
+    padding: 15px;
+    border: 3px solid;
+    margin: 20px;
+    border-radius: 60px;
   
   }
 
