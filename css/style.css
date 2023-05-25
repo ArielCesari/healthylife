@@ -35,7 +35,7 @@ main {
 a {
   text-decoration: none;
   transition: transform 0.3s ease-in-out;
-  ;
+  color: blueviolet;
 }
 
 
@@ -204,7 +204,7 @@ cursor: pointer;
 .img-grafico-inferior{
   border-radius: 300px;
   width: 600px;
-  border: solid 1px grey;
+  border: solid 3px grey;
   padding: 30px;
   margin: 20px 0 20px 440px;
   
