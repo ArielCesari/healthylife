@@ -155,6 +155,16 @@ footer ul {
    margin-bottom: 20px;
 }
 
+.cuerpo-texto{
+
+  text-align: center;
+}
+
+.lista-consejos{
+  
+  list-style: none;
+
+}
 
 .foto-tipsalud{
   border-radius: 30px;
