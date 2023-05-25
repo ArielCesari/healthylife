@@ -150,17 +150,25 @@
         <section>
             <a name="contacto"></a>
             <h2 class="titular-2">Recibí nuestras novedades</h2>
+
+            <ul id="errores">
+
+            </ul>
             <form id="form">
+
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" placeholder="Ej: Cosme">
+
 
                 <label for="apellido">Apellido:</label>
                 <input type="text" id="apellido" name="apellido" placeholder="Ej: Fulanito">
 
+
                 <label for="correo">Correo electrónico:</label>
                 <input type="text" id="correo" name="correo" placeholder="cfulanito@gmail.com">
 
-                <label for="nacionalidad">Nacionalidad:</label>
+
+                <label for="nacionalidad">Nacionalidad (opcional):</label>
                 <select id="nacionalidad" name="nacionalidad">
                     <option value="value1">argentina</option>
                     <option value="value1">brasilera</option>
@@ -177,7 +185,7 @@
                 </select>
 
                 <label for="Mensaje">Mensaje:</label>
-                <textarea id="Mensaje" name="Mensaje"></textarea>
+                <textarea id="Mensaje" name="mensaje" placeholder=" Mínimo 100 carácteres"></textarea>
                 <button type="submit">Enviar</button>
 
             </form>
@@ -200,7 +208,7 @@
 
     </footer>
 
-    <script src="/scripts/main.js"></script>
+    <script src="../scripts/main.js"></script>
 
 </body>
 
