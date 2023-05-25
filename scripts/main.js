@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
 
     let form = document.querySelector("#form");
-    form.name.focus();
+    
 
     let erroresHtml = document.querySelector("#errores");
 
