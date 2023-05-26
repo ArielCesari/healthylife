@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
 }
 
 html {
@@ -27,7 +28,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   margin: auto;
 
 }
@@ -114,10 +115,10 @@ a:hover {
 
 .img-avena {
 
-  border-radius: 30px;
+  border-radius: 60px;
   margin: 10px;
   padding: 20px;
-  width: 600px;
+  width: 40vw;
 
 
 }
@@ -203,7 +204,7 @@ footer ul {
 
 .img-grafico {
   border-radius: 300px;
-  width: 600px;
+  width: 33vw;
   padding: 30px;
   margin: 40px 0 50px 0;
 
@@ -211,17 +212,11 @@ footer ul {
 
 .contenedor-graficos {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
 }
 
-.img-grafico-inferior {
-  border-radius: 300px;
-  width: 600px;
-  padding: 30px;
-  margin: 20px 0 20px 440px;
 
-}
 
 .mas-recetas {
 
@@ -285,31 +280,72 @@ footer ul {
 
 
 
-@media (min-width: 320px) and  (max-width: 480px) {
+@media (max-width: 700px) {
   /* Celular */
- 
- .img-header {
 
-  width: 100%;
+  header {
+    max-width: 100%;
+  }
+
+  .img-header {
+    width: 93vw;
+
+  }
+
+  .nav-bar {
+
+    flex-direction: column;
+
+
+  }
+
+  .nav-bar a {
+
+    margin: 4px;
+    font-size: 12px
+
+
+  }
+
+  main {
+
+    width: auto;
+
+  }
+
+  .avena{
+    flex-direction: column;
+    align-items: center;
   
-
- }
-
- .nav-bar{
-
-  flex-direction: column;
- }
-
- .nav-bar a {
-  font-size: 12px;
-  margin: 3px 0 3px 0;
- }
+  }
 
 
+  .img-avena{
+
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .img-avena{
+
+    width: 100vw ;
+  }
+
+  .contenedor-graficos{
+
+    flex-direction: column;
+    
+  }
+
+  .img-grafico{
+
+    width: 90vw;
+  }
+  .contenedor-footer{
+    display:inline-block;
+  }
+
+} 
 
 
-}
-
-
-
-@media (max-width: 1040px) {}
