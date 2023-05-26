@@ -6,7 +6,7 @@ html {
 
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: lavender;
-  color:  gray;
+  color: gray;
   margin: 10px;
 
 }
@@ -17,9 +17,9 @@ main {
 
 .img-header {
 
-  width: 100%;
+  width: 97.5vw;
   border-radius: 30px;
-  height: 400px;
+  height: 22vw;
 }
 
 
@@ -52,11 +52,11 @@ a:hover {
   text-align: center;
 }
 
-.contenedor-recetas{
+.contenedor-recetas {
 
   display: flex;
-  flex-direction:row;
-  justify-content:space-between;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 
@@ -119,7 +119,12 @@ a:hover {
   padding: 20px;
   width: 600px;
 
-  
+
+}
+
+.boton-mas-recetas {
+
+  text-align: center;
 }
 
 
@@ -128,7 +133,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   border-top: solid 1px grey;
-  
+
 
 }
 
@@ -140,44 +145,44 @@ footer ul {
   list-style: none;
 }
 
-.foto-lista{
+.foto-lista {
   border-radius: 30px;
   margin: 10px;
   padding: 20px;
   width: 600px;
   border: solid 3px grey;
-  
+
 }
 
 
-.lista-pasos{
+.lista-pasos {
 
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.cuerpo-texto{
+.cuerpo-texto {
 
   text-align: center;
 }
 
-.lista-consejos{
-  
+.lista-consejos {
+
   list-style: none;
 
 }
 
-.foto-tipsalud{
+.foto-tipsalud {
   border-radius: 30px;
   margin: 10px;
   padding: 20px;
   width: 600px;
   border: solid 3px grey;
-  
-  
+
+
 
 }
 
-.container-tipsalud{
+.container-tipsalud {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,18 +190,18 @@ footer ul {
 
 
 .container-tipsalud button {
-background-color: cornflowerblue;
-color: #ffffff;
-padding: 10px 20px;
-border: none;
-border-radius: 5px;
-font-size: 16px;
-cursor: pointer;
+  background-color: cornflowerblue;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
 
 
 }
 
-.img-grafico{
+.img-grafico {
   border-radius: 300px;
   width: 600px;
   padding: 30px;
@@ -204,131 +209,107 @@ cursor: pointer;
 
 }
 
-.contenedor-graficos{
+.contenedor-graficos {
   display: flex;
   justify-content: space-around;
-  
+
 }
 
-.img-grafico-inferior{
+.img-grafico-inferior {
   border-radius: 300px;
   width: 600px;
   padding: 30px;
   margin: 20px 0 20px 440px;
-  
+
 }
 
-.mas-recetas{
+.mas-recetas {
 
-  border-radius: 10px;
+
   padding: 10px;
   background-color: lavender;
-  border:solid 1px black;
   color: black;
   transition: transform 0.3s ease-in-out;
-  
-  }
+  display: flex;
+  justify-content: center;
 
-  .imagenes-frases{
+}
 
-    display: flex;
-    
-  }
+.mas-recetas button {
 
-  .img-item{
+  border-radius: 10px 20px 10px 20px;
+  cursor: pointer;
+  height: 40px;
+  border: green solid 1px;
+}
 
-    width: 30%;
-    padding: 15px;
-    border: 3px solid;
-    margin: 20px;
-    border-radius: 60px;
-  
-  }
+.imagenes-frases {
 
+  display: flex;
 
-  .es-valido {
+}
 
-    background-color: #198754;
-    border: 2px #198754 ;
-  }
+.img-item {
 
-  .es-invalido {
-    background-color: #F8D7DA;
-    border: 2px #842029 ;
-  }
+  width: 30%;
+  padding: 15px;
+  border: 3px solid;
+  margin: 20px;
+  border-radius: 60px;
 
-  #errores{
-
-    color:#842029;
-    background-color: #F8D7DA;
-    text-align: center;
-    border-radius: 10px;
-    list-style: none;
 }
 
 
-  
-  
+.es-valido {
+
+  background-color: #198754;
+  border: 2px #198754;
+}
+
+.es-invalido {
+  background-color: #F8D7DA;
+  border: 2px #842029;
+}
+
+#errores {
+
+  color: #842029;
+  background-color: #F8D7DA;
+  text-align: center;
+  border-radius: 10px;
+  list-style: none;
+}
 
 
-@media (max-width: 640px) {
+
+
+
+
+@media (min-width: 320px) and  (max-width: 480px) {
   /* Celular */
+ 
+ .img-header {
 
-
-  .nav-bar {
-    display: contents
-  }
-
-  .img-avena {
-    width: 50%;
-
-  }
-
-  .img {
-
-    height: auto;
-  }
-
-  header{
-    width: 100%;
-  }
-
-  .foto-lista{
-   width: auto;
-   height: auto;
-
-
-}
-
-.img-header{
-  height: auto;
-}
-
-
-}
-
-
-
-@media (max-width: 1040px) {
+  width: 100%;
   
 
-  img {
-    width: 30px;
+ }
 
-    border-radius: 30px;
-  }
+ .nav-bar{
 
-  .nav-bar {
-    font-size: xx-small;
+  flex-direction: column;
+ }
 
-  }
+ .nav-bar a {
+  font-size: 12px;
+  margin: 3px 0 3px 0;
+ }
 
-  .img-avena, .foto-lista{
-    display: none;
-
-
-  }
 
 
 
 }
+
+
+
+@media (max-width: 1040px) {}
