@@ -278,6 +278,17 @@ footer ul {
   list-style: none;
 }
 
+iframe{
+  border:none;
+  text-align: center;
+}
+
+.ifra-recetas{
+
+  text-align: center;
+
+}
+
 
 @media (max-width: 700px) {
 
