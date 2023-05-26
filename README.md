@@ -21,3 +21,26 @@ Aquí encontraras consejos, recetas saludables y mucho amor, que nunca debe falt
 ¡Sean tod@s Bienvenid@s! ツ 
 
 
+**** Anotaciones personales  ****
+
+VISUAL Y ESTETICO:
+Evaluar cambiar tipo y color de letra. Buscar fuentes.
+Evaluar poner un fondo de pantalla a nivel global o en alguna/s sessión/es.
+Mejorar el footer.
+Mejorar la barra de navegación.
+Agregar mas íconos.
+
+INFORMATIVO:
+Incluir mas información en la vista index.html y motivaciones.html
+Agregar mas información en el footer.
+
+FUNCIONAL:
+Agregar boton de scroll hacia arriba  en pie de pagina
+Incluir carrusel con fotos.
+Modificar carpetas y archivos. Colocar carpeta src y public. Trabajar con express y crear Archivo JS para conectarse a un puerto. [ Preguntar a la profe si es válido hacerlo ]
+
+
+
+
+
+
