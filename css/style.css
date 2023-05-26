@@ -9,8 +9,11 @@ html {
   background-color: lavender;
   color: gray;
   margin: 10px;
+  text-align: justify;
+
 
 }
+
 
 main {
   margin: 10px;
@@ -46,7 +49,7 @@ a:hover {
 
 .titular {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .titular-2 {
@@ -56,7 +59,6 @@ a:hover {
 .contenedor-recetas {
 
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 
 }
@@ -149,8 +151,8 @@ footer ul {
 .foto-lista {
   border-radius: 30px;
   margin: 10px;
-  padding: 20px;
-  width: 600px;
+  padding: 10px;
+  width: 45vw;
   border: solid 3px grey;
 
 }
@@ -176,7 +178,7 @@ footer ul {
   border-radius: 30px;
   margin: 10px;
   padding: 20px;
-  width: 600px;
+  width: 50vw;
   border: solid 3px grey;
 
 
@@ -241,12 +243,13 @@ footer ul {
 .imagenes-frases {
 
   display: flex;
+  flex-wrap: wrap;
 
 }
 
 .img-item {
 
-  width: 30%;
+  width: 30vw;
   padding: 15px;
   border: 3px solid;
   margin: 20px;
@@ -276,12 +279,8 @@ footer ul {
 }
 
 
-
-
-
-
 @media (max-width: 700px) {
-  /* Celular */
+
 
   header {
     max-width: 100%;
@@ -296,15 +295,12 @@ footer ul {
 
     flex-direction: column;
 
-
   }
 
   .nav-bar a {
 
     margin: 4px;
     font-size: 12px
-
-
   }
 
   main {
@@ -313,39 +309,86 @@ footer ul {
 
   }
 
-  .avena{
+  .avena {
     flex-direction: column;
     align-items: center;
-  
+
   }
 
 
-  .img-avena{
+
+  .img-avena {
+
+    width: 100vw;
+  }
+
+  .contenedor-graficos  {
 
     flex-direction: column;
-    align-items: center;
-  
+
   }
 
-  .img-avena{
-
-    width: 100vw ;
-  }
-
-  .contenedor-graficos{
-
-    flex-direction: column;
-    
-  }
-
-  .img-grafico{
+  .img-grafico {
 
     width: 90vw;
   }
-  .contenedor-footer{
-    display:inline-block;
+
+  .contenedor-footer {
+    display: inline-block;
   }
 
-} 
+  .contenedor-recetas {
+    flex-direction: column;
+  }
+
+  .foto-lista {
+
+    width: 70vw ;
+    border: none;
+  }
+
+  .imagenes-frases{
+    flex-direction: column;
+  }
+ .img-item {
+  width: 88vw;
+  border: none;
 
 
+ }
+
+ .foto-tipsalud {
+  width: 95vw;
+ }
+
+
+}
+
+
+@media (max-width: 1050px) {
+
+  .avena {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .img-avena {
+
+    width: 90vw;
+  }
+  .contenedor-recetas {
+    flex-direction: column;
+  }
+
+  .imagenes-frases{
+    flex-direction: column;
+  }
+  .img-item {
+    width: 88vw;
+    border: none;
+  
+
+}
+
+}
