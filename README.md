@@ -25,10 +25,12 @@ Aquí encontraras consejos, recetas saludables y mucho amor, que nunca debe falt
 
 VISUAL Y ESTETICO:
 Evaluar cambiar tipo y color de letra. Buscar fuentes.
-Evaluar poner un fondo de pantalla a nivel global o en alguna/s sessión/es.
+Evaluar poner un fondo de pantalla a nivel global o en alguna/s sesión/es.
+Mejorar recuadro de fotos en vista motivaciones.html
 Mejorar el footer.
-Mejorar la barra de navegación.
+Mejorar la barra de navegación. Cambiar color de enlaces.
 Agregar mas íconos.
+Ordenar y comentar archivo style.css
 
 INFORMATIVO:
 Incluir mas información en la vista index.html y motivaciones.html
@@ -37,7 +39,10 @@ Agregar mas información en el footer.
 FUNCIONAL:
 Agregar boton de scroll hacia arriba  en pie de pagina
 Incluir carrusel con fotos.
-Modificar carpetas y archivos. Colocar carpeta src y public. Trabajar con express y crear Archivo JS para conectarse a un puerto. [ Preguntar a la profe si es válido hacerlo ]
+Modificar carpetas y archivos. Colocar carpeta src y public. Instalar express y crear Archivo JS para conectarse a un puerto. [ Preguntar a la profe si es válido hacerlo ]
+Agregar boton para cambiar la vista de claro a oscuro y viceversa 
+Consultar si debemos trabajar sobre un sol archivo JS o si hay que creer varios.
+Ver de agregar un Alert con nombre para que aparezca en la pagina inicial.
 
 
 
