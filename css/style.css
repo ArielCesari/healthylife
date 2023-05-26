@@ -50,12 +50,15 @@ a:hover {
 
 .titular {
   text-align: center;
-  padding-top: 10px;
+  margin-top: 10px;
+  padding: 15px;
+  color: black;
+  border: solid 3px  black;
+  border-radius: 50px 0 50px 0 ;
+  background-color: #4CAF50;
 }
 
-.titular-2 {
-  text-align: center;
-}
+
 
 .contenedor-recetas {
 
@@ -123,6 +126,21 @@ a:hover {
   padding: 20px;
   width: 40vw;
 
+
+}
+
+.item-avena {
+
+  border-radius: 60px;
+  margin: 10px;
+  padding: 30px;
+  width: 45vw;
+
+
+}
+
+.img-avena2 {
+  display: flex;
 
 }
 
@@ -206,10 +224,10 @@ footer ul {
 }
 
 .img-grafico {
-  border-radius: 300px;
+  border-radius: 200px;
   width: 33vw;
-  padding: 30px;
-  margin: 40px 0 50px 0;
+  padding: 10px;
+  margin: 15px 0 15px 0;
 
 }
 
@@ -289,6 +307,14 @@ iframe {
   text-align: center;
 
 }
+
+.receta-avena ul{
+
+  text-align: center;
+  list-style: none;
+ 
+}
+
 
 
 @media (max-width: 700px) {
@@ -381,6 +407,15 @@ iframe {
     width: 95vw;
   }
 
+  .item-avena {
+    width: 88vw;
+  }
+
+  .img-avena2 {
+
+    flex-direction: column;
+  }
+
 
 }
 
@@ -412,5 +447,7 @@ iframe {
 
 
   }
+
+
 
 }
