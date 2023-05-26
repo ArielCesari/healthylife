@@ -33,6 +33,7 @@ main {
   justify-content: space-between;
   padding: 10px;
   margin: auto;
+  list-style-type: none;
 
 }
 
@@ -278,12 +279,12 @@ footer ul {
   list-style: none;
 }
 
-iframe{
-  border:none;
+iframe {
+  border: none;
   text-align: center;
 }
 
-.ifra-recetas{
+.ifra-recetas {
 
   text-align: center;
 
@@ -306,6 +307,13 @@ iframe{
 
     flex-direction: column;
 
+
+
+  }
+
+  header ul {
+
+    list-style: none;
   }
 
   .nav-bar a {
@@ -333,7 +341,7 @@ iframe{
     width: 100vw;
   }
 
-  .contenedor-graficos  {
+  .contenedor-graficos {
 
     flex-direction: column;
 
@@ -354,23 +362,24 @@ iframe{
 
   .foto-lista {
 
-    width: 70vw ;
+    width: 70vw;
     border: none;
   }
 
-  .imagenes-frases{
+  .imagenes-frases {
     flex-direction: column;
   }
- .img-item {
-  width: 88vw;
-  border: none;
+
+  .img-item {
+    width: 88vw;
+    border: none;
 
 
- }
+  }
 
- .foto-tipsalud {
-  width: 95vw;
- }
+  .foto-tipsalud {
+    width: 95vw;
+  }
 
 
 }
@@ -388,18 +397,20 @@ iframe{
 
     width: 90vw;
   }
+
   .contenedor-recetas {
     flex-direction: column;
   }
 
-  .imagenes-frases{
+  .imagenes-frases {
     flex-direction: column;
   }
+
   .img-item {
     width: 88vw;
     border: none;
-  
 
-}
+
+  }
 
 }
