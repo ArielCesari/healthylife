@@ -15,6 +15,7 @@ html {
   text-align: justify;
 }
 
+/* HEADER */  
 
 .img-header {
 
@@ -33,6 +34,8 @@ html {
   list-style-type: none;
 
 }
+
+/* Agrego efecto de transición en los enlaces y elimino el sub  */ 
 
 a {
   text-decoration: none;

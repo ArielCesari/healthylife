@@ -32,6 +32,7 @@ Mejorar la barra de navegación. Cambiar color de enlaces.
 Agregar mas íconos.
 Ordenar y comentar archivo style.css. Evaluar uso de root
 Achicar recuadro de titulos. || ✔ ||
+Darle estilo a los titulos en vista de recetas.html
 
 INFORMATIVO:
 Incluir mas información en la vista index.html y motivaciones.html
