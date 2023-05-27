@@ -1,7 +1,10 @@
+/* Establezco box-sizing en border-box para que los elementos mantengan su tamaño */
+
 * {
   box-sizing: border-box;
-
 }
+
+/* Establezco propiedades y valores predeterminados para todas las paginas */
 
 html {
 
@@ -10,14 +13,8 @@ html {
   color: gray;
   margin: 10px;
   text-align: justify;
-
-
 }
 
-
-main {
-  margin: 10px;
-}
 
 .img-header {
 
@@ -52,10 +49,9 @@ a:hover {
 
   text-align: center;
   margin-top: 10px;
-  padding: 15px;
   color: black;
-  border: solid 3px  black;
-  border-radius: 50px 0 50px 0 ;
+  border: solid 3px black;
+  border-radius: 50px 0 50px 0;
   background-color: #4CAF50;
 }
 
@@ -309,11 +305,11 @@ iframe {
 
 }
 
-.receta-avena ul{
+.receta-avena ul {
 
   text-align: center;
   list-style: none;
- 
+
 }
 
 /* Botón scroll hacia arriba  */
@@ -331,7 +327,7 @@ iframe {
   position: fixed;
   bottom: 50px;
   right: 50px;
-  cursor:pointer;
+  cursor: pointer;
   border: 4px solid transparent;
   transition: all 300ms ease;
   transform: scale(0);
@@ -339,14 +335,14 @@ iframe {
 }
 
 
- #button-up:hover {
+#button-up:hover {
 
-transform: scale(1.1);
-border-color:rgba(0, 0, 0, 0.1);
+  transform: scale(1.1);
+  border-color: rgba(0, 0, 0, 0.1);
 
 }
 
- /* Medias queries */
+/* Medias queries */
 
 @media (max-width: 700px) {
 
@@ -446,12 +442,12 @@ border-color:rgba(0, 0, 0, 0.1);
 
     flex-direction: column;
   }
-  
+
   #button-up {
     width: 30px;
     height: 30px;
 
-}
+  }
 
 }
 

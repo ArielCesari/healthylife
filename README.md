@@ -30,20 +30,20 @@ Mejorar recuadro de fotos en vista motivaciones.html
 Mejorar el footer.
 Mejorar la barra de navegación. Cambiar color de enlaces.
 Agregar mas íconos.
-Ordenar y comentar archivo style.css
-Achicar recuadro de titulos. Ver como hacerlo
+Ordenar y comentar archivo style.css. Evaluar uso de root
+Achicar recuadro de titulos. || ✔ ||
 
 INFORMATIVO:
 Incluir mas información en la vista index.html y motivaciones.html
 Agregar mas información en el footer.
 
 FUNCIONAL:
-Agregar boton de scroll hacia arriba  en pie de pagina. Hacer que solo aparezca cuando estamos navengando en el final de la página.
+Agregar boton de scroll hacia arriba  en pie de pagina. Hacer que solo aparezca cuando estamos navengando en el final de la página || ✔ ||
 Incluir carrusel con fotos.
 Modificar carpetas y archivos. Colocar carpeta src y public. Instalar express y crear Archivo JS para conectarse a un puerto. [ Preguntar a la profe si es válido hacerlo ]
 Agregar boton para cambiar la vista de claro a oscuro y viceversa 
 Consultar si debemos trabajar sobre un sol archivo JS o si hay que creer varios.
-Ver de agregar un Alert con nombre para que aparezca en la pagina inicial.
+Evaluar agregar un Alert con nombre para que aparezca en la pagina inicial.
 
 
 
