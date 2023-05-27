@@ -31,13 +31,14 @@ Mejorar el footer.
 Mejorar la barra de navegación. Cambiar color de enlaces.
 Agregar mas íconos.
 Ordenar y comentar archivo style.css
+Achicar recuadro de titulos. Ver como hacerlo
 
 INFORMATIVO:
 Incluir mas información en la vista index.html y motivaciones.html
 Agregar mas información en el footer.
 
 FUNCIONAL:
-Agregar boton de scroll hacia arriba  en pie de pagina
+Agregar boton de scroll hacia arriba  en pie de pagina. Hacer que solo aparezca cuando estamos navengando en el final de la página.
 Incluir carrusel con fotos.
 Modificar carpetas y archivos. Colocar carpeta src y public. Instalar express y crear Archivo JS para conectarse a un puerto. [ Preguntar a la profe si es válido hacerlo ]
 Agregar boton para cambiar la vista de claro a oscuro y viceversa 
