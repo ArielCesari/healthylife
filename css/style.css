@@ -334,6 +334,7 @@ iframe {
   cursor:pointer;
   border: 4px solid transparent;
   transition: all 300ms ease;
+  transform: scale(0);
 
 }
 
