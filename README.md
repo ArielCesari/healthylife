@@ -24,14 +24,14 @@ Aquí encontraras consejos, recetas saludables y mucho amor, que nunca debe falt
 **** Anotaciones personales  ****
 
 VISUAL Y ESTETICO:
-Evaluar cambiar tipo y color de letra. Buscar fuentes.
+Evaluar cambiar tipo y color de letra. Buscar fuentes || ✔ ||
 Evaluar poner un fondo de pantalla a nivel global o en alguna/s sesión/es.
 Mejorar recuadro de fotos en vista motivaciones.html
 Mejorar el footer.
 Mejorar la barra de navegación. Cambiar color de enlaces.
 Agregar mas íconos.
 Ordenar y comentar archivo style.css. Evaluar uso de root
-Achicar recuadro de titulos. || ✔ ||
+Achicar recuadro de titulos. Simplmente reduje el padding || ✔ ||
 Darle estilo a los titulos en vista de recetas.html
 
 INFORMATIVO:
