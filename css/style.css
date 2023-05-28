@@ -52,6 +52,7 @@ a:hover {
 
   text-align: center;
   margin-top: 10px;
+  padding: 5px;
   color: black;
   border: solid 3px black;
   border-radius: 50px 0 50px 0;
@@ -189,7 +190,7 @@ a:hover {
 .contenedor-footer {
 
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   border-top: solid 1px grey;
 
 
@@ -197,17 +198,30 @@ a:hover {
 
 .ul-iconos {
   display: flex;
+  
 
 }
 
-.ul-iconos li {
-  margin-right: 10px;
-}
+
 
 footer ul {
   list-style: none;
 }
 
+
+.nav-bar-footer{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+  list-style-type: none;
+}
+
+
+.nav-bar-footer li {
+  margin-right: 10px;
+}
 .foto-lista {
   border-radius: 30px;
   margin: 10px;
@@ -451,6 +465,7 @@ iframe {
 
   .contenedor-footer {
     display: inline-block;
+    border-top: solid 1px grey;
   }
 
   .contenedor-recetas {
@@ -543,6 +558,22 @@ iframe {
 
 
   }
+
+  .contenedor-footer{
+
+    flex-direction: column;
+    display:contents;
+    border-top: solid 1px grey;
+   
+  }
+
+  .ul-iconos {
+
+    display: none;
+
+
+  }
+
 
   
 
