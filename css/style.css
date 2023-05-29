@@ -464,8 +464,8 @@ iframe {
   }
 
   .contenedor-footer {
-    display: inline-block;
-    border-top: solid 1px grey;
+    flex-direction: column;
+    align-items: center;
   }
 
   .contenedor-recetas {
@@ -525,6 +525,16 @@ iframe {
     height: 50vw;
   }
 
+  .nav-bar-footer{
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-bar-footer li {
+    margin-bottom: 10px;
+  }
+
 
 
 
@@ -559,20 +569,20 @@ iframe {
 
   }
 
-  .contenedor-footer{
-
+  .contenedor-footer {
     flex-direction: column;
-    display:contents;
-    border-top: solid 1px grey;
-   
+    align-items: center;
   }
 
-  .ul-iconos {
-
-    display: none;
-
-
+  .nav-bar-footer {
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
+  .nav-bar-footer li {
+    margin-bottom: 10px;
+  }
+ 
 
 
   
