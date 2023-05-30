@@ -57,6 +57,7 @@ a:hover {
   border: solid 3px black;
   border-radius: 50px 0 50px 0;
   background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
 }
 
 
@@ -148,6 +149,8 @@ a:hover {
   margin: 10px;
   padding: 20px;
   width: 40vw;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  background-color: lavender;
 
 
 }
@@ -156,8 +159,10 @@ a:hover {
 
   border-radius: 60px;
   margin: 10px;
-  padding: 30px;
+  padding: 20px;
   width: 45vw;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  background-color: lavender;
 
 
 }
@@ -178,6 +183,8 @@ a:hover {
   width: 40vw;
   height: 20vw;
   border-radius: 30px;
+  
+ 
 
 }
 
@@ -230,6 +237,7 @@ footer ul {
   width: 45vw;
   border: solid 3px grey;
   background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
 
 }
 
@@ -255,7 +263,8 @@ footer ul {
   margin: 10px;
   padding: 20px;
   width: 50vw;
-  border: solid 3px grey;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  background-color: lavender;
 
 
 
@@ -329,6 +338,7 @@ footer ul {
   padding: 15px;
   border: 3px solid;
   background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
   margin: 20px;
   border-radius: 60px;
 
@@ -379,6 +389,7 @@ iframe {
   width: 40px;
   height: 40px;
   background-color: lavender;
+  box-shadow: 0px 0px 5px 0px #333 inset;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -414,6 +425,7 @@ iframe {
 
   .img-header {
     width: 93vw;
+    
 
   }
 
@@ -521,6 +533,7 @@ iframe {
 
     width: 50vw;
     margin: auto;
+    
   }
 
   .iframe-video {
