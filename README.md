@@ -25,14 +25,14 @@ Aquí encontraras consejos, recetas saludables y mucho amor, que nunca debe falt
 
 VISUAL Y ESTETICO:
 Evaluar cambiar tipo y color de letra. Buscar fuentes || ✔ ||
-Evaluar poner un fondo de pantalla a nivel global o en alguna/s sesión/es.
-Mejorar recuadro de fotos en vista motivaciones.html
+Evaluar poner un fondo de pantalla a nivel global o en alguna/s sesión/es. O cambiar color de fondo. || ✔ ||
+Mejorar recuadro de fotos en vista motivaciones.html  || ✔ ||
 Mejorar el footer || ✔ ||
-Mejorar la barra de navegación. ¿Cambiar color de enlaces?
-Agregar mas íconos.
+Mejorar la barra de navegación. ¿Cambiar color de enlaces?  || ✔ ||
+Agregar mas íconos. 
 Ordenar y comentar archivo style.css. Evaluar uso de root
 Achicar recuadro de titulos => Simplmente reducí el padding || ✔ ||
-Darle estilo a los titulos en vista de recetas.html
+Darle estilo a los titulos en vista de recetas.html || ✔ ||
 
 INFORMATIVO:
 Incluir mas información en la vista index.html y motivaciones.html
@@ -43,7 +43,6 @@ Agregar boton de scroll hacia arriba  en pie de pagina. Hacer que solo aparezca 
 ¿Incluir carrusel con fotos?
 Modificar carpetas y archivos. Colocar carpeta src y public. Instalar express y crear Archivo JS para conectarse a un puerto. [ Preguntar a la profe si es válido hacerlo ]
 Agregar boton para cambiar la vista de claro a oscuro y viceversa 
-Consultar si debemos trabajar sobre un solo archivo JS o si hay que creer varios.
 Evaluar agregar un Alert con nombre para que aparezca en la pagina inicial. Ejemplo Bienvenido "Ariel"
 
 
