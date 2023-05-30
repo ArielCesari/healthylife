@@ -9,13 +9,13 @@
 html {
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: lavender;
-  color: rgb(0, 87, 0);
+  background-color: beige;
+  color: black;
   margin: 10px;
   text-align: justify;
 }
 
-/* HEADER */  
+/* HEADER */
 
 .img-header {
 
@@ -35,7 +35,7 @@ html {
 
 }
 
-/* Agrego efecto de transición en los enlaces y elimino el sub  */ 
+/* Agrego efecto de transición en los enlaces y elimino el sub  */
 
 a {
   text-decoration: none;
@@ -56,7 +56,7 @@ a:hover {
   color: black;
   border: solid 3px black;
   border-radius: 50px 0 50px 0;
-  background-color: #4CAF50;
+  background-color: lavender;
 }
 
 
@@ -68,16 +68,16 @@ a:hover {
 
 }
 
-.container-indice{
+.container-indice {
 
   display: flex;
   justify-content: space-evenly;
 }
 
-.indice-recetas-carne{
+.indice-recetas-carne {
 
-  flex-direction:row-reverse;
-  
+  flex-direction: row-reverse;
+
 }
 
 .img-chef {
@@ -167,16 +167,16 @@ a:hover {
 
 }
 
-.video-avena{
+.video-avena {
   text-align: center;
   margin-bottom: 30px;
 
 }
 
-.iframe-video{
+.iframe-video {
 
-  width:40vw;
-  height:20vw; 
+  width: 40vw;
+  height: 20vw;
   border-radius: 30px;
 
 }
@@ -190,7 +190,7 @@ a:hover {
 .contenedor-footer {
 
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   border-top: solid 1px grey;
 
 
@@ -198,7 +198,7 @@ a:hover {
 
 .ul-iconos {
   display: flex;
-  
+
 
 }
 
@@ -209,7 +209,7 @@ footer ul {
 }
 
 
-.nav-bar-footer{
+.nav-bar-footer {
 
   display: flex;
   justify-content: space-between;
@@ -222,6 +222,7 @@ footer ul {
 .nav-bar-footer li {
   margin-right: 10px;
 }
+
 .foto-lista {
   border-radius: 30px;
   margin: 10px;
@@ -298,7 +299,6 @@ footer ul {
 
 
   padding: 10px;
-  background-color: lavender;
   color: black;
   transition: transform 0.3s ease-in-out;
   display: flex;
@@ -311,7 +311,7 @@ footer ul {
   border-radius: 10px 20px 10px 20px;
   cursor: pointer;
   height: 40px;
-  border: green solid 1px;
+  border: black solid 1px;
 }
 
 .imagenes-frases {
@@ -375,11 +375,11 @@ iframe {
 #button-up {
   width: 40px;
   height: 40px;
-  background-color: green;
+  background-color: beige;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: blueviolet;
   border-radius: 50%;
   font-size: 20px;
   position: fixed;
@@ -509,7 +509,7 @@ iframe {
 
   }
 
-  .container-indice{
+  .container-indice {
 
     flex-direction: column;
   }
@@ -520,13 +520,13 @@ iframe {
     margin: auto;
   }
 
-  .iframe-video{
+  .iframe-video {
 
     width: 75vw;
     height: 50vw;
   }
 
-  .nav-bar-footer{
+  .nav-bar-footer {
 
     flex-wrap: wrap;
     justify-content: center;
@@ -583,9 +583,9 @@ iframe {
   .nav-bar-footer li {
     margin-bottom: 10px;
   }
- 
 
 
-  
+
+
 
 }
