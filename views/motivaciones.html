@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Motivaciones</title>
+</head>
+
+<body>
+    <header>
+
+        <a href="../index.html"><img class="img-header" src="../img/foto-header.png" alt="logo"></a>
+        <nav>
+
+            <ul class="nav-bar">
+                <li><a href="../index.html"> <i class="fa-solid fa-house">Inico </i></a></li>
+                <li><a href="../pages/recetas.html"><i class="fa-solid fa-utensils">Recetas </i></a></li>
+                <li><a href="../pages/motivaciones.html"><i class="fa-solid fa-heart">Motivaciones </i></a></li>
+                <li><a href="../pages/consejos.html"><i class="fa-solid fa-pen-to-square">Consejos </i></a></li>
+                <li><a href="#contacto"><i class="fa-regular fa-paper-plane">Contacto</i></a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div class="imagenes-frases">
+        <img class="img-item" src="../img/frase-1.jpg" alt=" imagen motivacional ">
+        <img class="img-item" src="../img/frase-2.jpg" alt="imagen motivacional">
+        <img class="img-item" src="../img/frase-3.jpg" alt="imagen motivacional">
+
+
+
+        <img class="img-item" src="../img/frase-4.jpg" alt="imagen motivacional">
+        <img class="img-item" src="../img/frase-5.jpg" alt="imagen motivacional">
+        <img class="img-item" src="../img/frase-6.jpg" alt="imagen motivacional">
+
+
+        <img class="img-item" src="../img/frase-7.jpg" alt="imagen motivacional">
+        <img class="img-item" src="../img/frase-8.jpg" alt="imagen motivacional">
+        <img class="img-item" src="../img/frase-9.jpg" alt="imagen motivacional">
+    </div>
+
+    <section>
+        <a name="contacto"></a>
+        <h2 class="titular">Recibí nuestras novedades</h2>
+
+        <ul id="errores">
+
+        </ul>
+        <form id="form">
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ej: Cosme">
+
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ej: Fulanito">
+
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="text" id="correo" name="correo" placeholder="cfulanito@gmail.com">
+
+
+            <label for="nacionalidad">Nacionalidad (opcional):</label>
+            <select id="nacionalidad" name="nacionalidad">
+                <option value="value1">argentina</option>
+                <option value="value1">brasilera</option>
+                <option value="value1">boliviana</option>
+                <option value="value1">chilena</option>
+                <option value="value1">colombiana</option>
+                <option value="value1">ecuatoriana</option>
+                <option value="value1">paraguaya</option>
+                <option value="value1">peruana</option>
+                <option value="value1">uruguaya</option>
+                <option value="value1">venezolana</option>
+                <option value="value2">Otra</option>
+
+            </select>
+
+            <label for="Mensaje">Mensaje:</label>
+            <textarea id="Mensaje" name="mensaje" placeholder=" Mínimo 100 carácteres"></textarea>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+    <!-- Boton de scroll hacia arriba -->
+    <div id="button-up">
+        <i class="fa-sharp fa-solid fa-chevron-up"></i>
+    </div>
+
+
+    <footer>
+        <div class="contenedor-footer">
+
+            <p> Made with ♥ by Ariel Cesari - Healthy Life -</p>
+
+            <ul class="nav-bar-footer">
+                <li><a href="../index.html">Inico</a></li>
+                <li><a href="../pages/recetas.html"> Recetas</a></li>
+                <li><a href="../pages/motivaciones.html"> Motivaciones </a></li>
+                <li><a href="../pages/consejos.html"> Consejos</a></li>
+
+            </ul>
+
+
+
+            <ul class="ul-iconos">
+
+                <li><a href="#"><i class="fa-brands fa-instagram"></a></i></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></a></i> </li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></a></i> </li>
+
+        </div>
+
+    </footer>
+    <script src="../scripts/validacionForm.js"></script>
+    <script src="../scripts/scroll.js"></script>
+</body>
+
+</html>
