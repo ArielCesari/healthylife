@@ -32,8 +32,12 @@ app.get('/consejos',(req,res) => {
 } )
 
 
-/* Pongo a correr el servidor */
-app.listen(3000, () => console.log("Servidor corriendo en puerto " + "http://localhost:3000"))
+/* Pongo a correr el servidor - app.listen(3000, () => console.log("Servidor corriendo en puerto " + "http://localhost:3000"))  */
+
+
+ 
+const port = process.env.PORT || 3000;
+app.listen(port, ()=> console.log("Server corriendo en puerto ${port}"));
 
 
 
