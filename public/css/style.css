@@ -11,7 +11,7 @@ html {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: beige;
   color: black;
-  margin: 10px;
+  margin: 15px;
   text-align: justify;
 }
 
@@ -22,6 +22,7 @@ html {
   width: 97.5vw;
   border-radius: 30px;
   height: 22vw;
+  
 }
 
 
@@ -92,6 +93,7 @@ a:hover {
 
 .img-avena2 {
   display: flex;
+  justify-content: center;
 
 }
 
