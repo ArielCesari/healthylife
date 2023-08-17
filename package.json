@@ -10,7 +10,7 @@
   "main": "app.js",
   "scripts": {
     "test": "nodemon ./src/app.js",
-    "start": "node /src/app.js"
+    "start": "node ./src/app.js"
   },
   "keywords": [],
   "author": "",
