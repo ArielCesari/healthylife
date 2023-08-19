@@ -2,36 +2,15 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <%- include("./partials/head.ejs") %>
 
-    <title>Recetas</title>
+        <title>Recetas</title>
 </head>
 
 <body>
     <header>
 
-        <a href="/"><img class="img-header" src="/img/foto-header.jpg" alt="logo"></a>
-        <nav>
-            <ul class="nav-bar">
-                <li><a href="/"> <i class="fa-solid fa-house"> Inico </i></a></li>
-                <li><a href="/recetas"><i class="fa-solid fa-utensils"> Recetas </i></a></li>
-                <li><a href="/motivaciones"><i class="fa-solid fa-heart"> Motivaciones </i></a></li>
-                <li><a href="/consejos"><i class="fa-solid fa-pen-to-square"> Consejos </i></a></li>
-                <li><a href="#contacto"><i class="fa-regular fa-paper-plane"> Contacto</i></a></li>
-            </ul>
-
-        </nav>
+        <%- include("./partials/header.ejs") %>
 
     </header>
 
@@ -582,33 +561,9 @@
         <i class="fa-sharp fa-solid fa-chevron-up"></i>
     </div>
 
-    <footer>
-        <div class="contenedor-footer">
+    <!-- FOOTER -->
+    <%- include("./partials/footer.ejs") %>
 
-            <p> Made with ♥ by Ariel Cesari - Healthy Life -</p>
-
-            <ul class="nav-bar-footer">
-                <li><a href="/">Inico</a></li>
-                <li><a href="/recetas"> Recetas</a></li>
-                <li><a href="/motivaciones"> Motivaciones </a></li>
-                <li><a href="/consejos"> Consejos</a></li>
-
-            </ul>
-
-
-            <ul class="ul-iconos">
-
-                <li><a target="_blank" href="https://www.instagram.com/cesariel.rp/"><i
-                            class="fa-brands fa-instagram"></a></i></li>
-                <li><a target="_blank" href="https://w.app/UA5HWX"><i class="fa-brands fa-whatsapp"></a></i> </li>
-                <li><a target="_blank" href="https://facebook.com/profile.php/?id=1144671961"><i
-                            class="fa-brands fa-facebook"></a></i>
-                </li>
-            </ul>
-
-        </div>
-
-    </footer>
     <script src="/scripts/validacionForm.js"></script>
     <script src="/scripts/scroll.js"></script>
 </body>

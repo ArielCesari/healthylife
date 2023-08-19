@@ -11,15 +11,21 @@ const mainController = {
 
         return res.render("recetas")
     },
-    // Manejo del pedido get con ruta 
+    
     motivaciones: (req, res) => {
-        // comunicarse con el modelo, conseguir información
+        
         return res.render("motivaciones")
     },
-    // Manejo del pedido get con ruta 
+    
     consejos: (req, res) => {
-        // comunicarse con el modelo, conseguir información
+        
         return res.render("consejos")
+    },
+
+    prueba: (req,res) => {
+    
+        let array = ["Argentina","Brasil","Buenos Aires","Brasilia"]    
+        return res.render("prueba",{paises:array})
     }
 
 

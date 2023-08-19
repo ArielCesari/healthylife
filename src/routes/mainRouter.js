@@ -11,6 +11,7 @@ router.get("/", mainController.index);
 router.get("/recetas",mainController.recetas)
 router.get("/motivaciones",mainController.motivaciones);
 router.get("/consejos",mainController.consejos);
+router.get("/prueba",mainController.prueba)
 
 
 
