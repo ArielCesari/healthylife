@@ -1,5 +1,3 @@
-/* Requiero path para poderenviar los archivos HTML */
-const path = require("path");
 
 
 /* Creo objeto literal con método a importar */
@@ -7,21 +5,21 @@ const mainController = {
     // Manejo del pedido get con ruta 
     index: (req, res) => {
         // comunicarse con el modelo, conseguir información
-        res.sendFile(path.resolve(__dirname, "../views/index.html"))
-    }, // Manejo del pedido get con ruta 
+        return res.render("index");
+    },
     recetas: (req, res) => {
-        // comunicarse con el modelo, conseguir información
-        res.sendFile(path.resolve(__dirname, "../views/recetas.html"))
+
+        return res.render("recetas")
     },
     // Manejo del pedido get con ruta 
     motivaciones: (req, res) => {
         // comunicarse con el modelo, conseguir información
-        res.sendFile(path.resolve(__dirname, "../views/motivaciones.html"))
+        return res.render("motivaciones")
     },
     // Manejo del pedido get con ruta 
     consejos: (req, res) => {
         // comunicarse con el modelo, conseguir información
-        res.sendFile(path.resolve(__dirname, "../views/consejos.html"))
+        return res.render("consejos")
     }
 
 
