@@ -1,0 +1,613 @@
+/* Establezco box-sizing en border-box para que los elementos mantengan su tamaño */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Establezco propiedades y valores predeterminados para todas las paginas */
+
+html {
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: beige;
+  color: black;
+  margin: 15px;
+  text-align: justify;
+}
+
+/* HEADER */
+
+.img-header {
+
+  width: 97.5vw;
+  border-radius: 30px;
+  height: 22vw;
+  
+}
+
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+  list-style-type: none;
+
+}
+
+/* Agrego efecto de transición en los enlaces y elimino el sub  */
+
+a {
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  color: #31549a;
+}
+
+
+a:hover {
+  transform: translateY(-5px);
+}
+
+.titular {
+
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  color: black;
+  border: solid 1px black;
+  background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  width: 100%;
+  margin: 0;
+
+
+}
+
+.avena {
+  display: flex;
+
+
+}
+
+
+
+.img-avena {
+
+  border-radius: 60px;
+  margin: 10px;
+  padding: 20px;
+  width: 40vw;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  background-color: lavender;
+
+
+}
+
+.item-avena {
+
+  border-radius: 60px;
+  margin: 10px;
+  padding: 20px;
+  width: 45vw;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  background-color: lavender;
+
+
+}
+
+.img-avena2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.video-avena {
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.iframe-video {
+
+  width: 40vw;
+  height: 20vw;
+  border-radius: 30px;
+
+}
+
+
+.contenedor-recetas {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.container-indice {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.indice-recetas-carne {
+
+  flex-direction: row-reverse;
+
+}
+
+.img-chef {
+
+  border-radius: 30px;
+  margin: 10px;
+  padding: 10px;
+  width: 20vw;
+}
+
+
+.fa-brands {
+  width: 90px;
+}
+
+.receta-avena ul {
+
+  text-align: center;
+  list-style: none;
+
+}
+
+.boton-mas-recetas {
+
+  text-align: center;
+  background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  font-weight: bold;
+  border-radius: 10px 20px 10px 20px;
+  padding: 10px;
+}
+
+
+.contenedor-footer {
+
+  display: flex;
+  justify-content: space-around;
+  border-top: solid 1px grey;
+}
+
+.ul-iconos {
+  display: flex;
+}
+
+
+h3 {
+
+  color: #31549a;
+}
+
+/* FORMULARIO */
+
+#form {
+  background-color: lavender;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+#form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form input[type="text"],
+#form select,
+#form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#form textarea {
+  height: 150px;
+}
+
+#form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+/* FOOTER */
+
+
+footer ul {
+  list-style: none;
+}
+
+
+.nav-bar-footer {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: auto;
+  list-style-type: none;
+}
+
+
+.nav-bar-footer li {
+  margin-right: 10px;
+}
+
+.foto-lista {
+  border-radius: 30px;
+  margin: 10px;
+  padding: 10px;
+  width: 45vw;
+  border: solid 3px grey;
+  background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+
+}
+
+
+.lista-pasos {
+
+  margin-bottom: 20px;
+}
+
+.cuerpo-texto {
+
+  text-align: center;
+}
+
+.lista-consejos {
+
+  list-style: none;
+
+}
+
+.foto-tipsalud {
+  border-radius: 30px;
+  margin: 10px;
+  padding: 20px;
+  width: 50vw;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  background-color: lavender;
+
+
+
+}
+
+.container-tipsalud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container-tipsalud button {
+  background-color: cornflowerblue;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.img-grafico {
+  border-radius: 200px;
+  width: 33vw;
+  padding: 10px;
+  margin: 15px 0 15px 0;
+}
+
+.contenedor-graficos {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.mas-recetas {
+  padding: 10px;
+  color: black;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.mas-recetas button {
+
+  
+  cursor: pointer;
+  height: 40px;
+  border: black solid 1px;
+}
+
+.imagenes-frases {
+
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.img-item {
+
+  width: 29.9vw;
+  padding: 15px;
+  border: 3px solid;
+  background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  margin: 20px;
+  border-radius: 60px;
+
+}
+
+
+iframe {
+  border: none;
+  text-align: center;
+}
+
+.ifra-recetas {
+
+  text-align: center;
+
+}
+
+
+/* VALIDACIONES FORM , JS DESDE FRONT END */
+
+
+.es-valido {
+
+  background-color: #198754;
+  border: 2px #198754;
+}
+
+.es-invalido {
+  background-color: #F8D7DA;
+  border: 2px #842029;
+}
+
+#errores {
+
+  color: #842029;
+  background-color: #F8D7DA;
+  text-align: center;
+  border-radius: 10px;
+  list-style: none;
+}
+
+/* Botón scroll hacia arriba  */
+
+#button-up {
+  width: 40px;
+  height: 40px;
+  background-color: lavender;
+  box-shadow: 0px 0px 5px 0px #333 inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  border: 4px solid transparent;
+  transition: all 300ms ease;
+  transform: scale(0);
+
+}
+
+
+#button-up:hover {
+
+  transform: scale(1.1);
+  border-color: rgba(0, 0, 0, 0.1);
+
+}
+
+/* Medias queries */
+
+@media (max-width: 700px) {
+
+
+  header {
+    max-width: 100%;
+  }
+
+  .img-header {
+    width: 93vw;
+
+
+  }
+
+  .nav-bar {
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+  }
+
+  header ul {
+
+    list-style: none;
+  }
+
+  .nav-bar a {
+
+    margin: 4px;
+    font-size: 12px
+  }
+
+  main {
+
+    width: auto;
+
+  }
+
+  .avena {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+
+
+  .img-avena {
+
+    width: 100vw;
+  }
+
+  .contenedor-graficos {
+
+    flex-direction: column;
+
+  }
+
+  .img-grafico {
+
+    width: 90vw;
+  }
+
+  .contenedor-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contenedor-recetas {
+    flex-direction: column;
+  }
+
+  .foto-lista {
+
+    width: 70vw;
+    border: none;
+  }
+
+  .imagenes-frases {
+    flex-direction: column;
+  }
+
+  .img-item {
+    width: 88vw;
+    border: none;
+
+
+  }
+
+  .foto-tipsalud {
+    width: 95vw;
+  }
+
+  .item-avena {
+    width: 88vw;
+  }
+
+  .img-avena2 {
+
+    flex-direction: column;
+  }
+
+  #button-up {
+    width: 30px;
+    height: 30px;
+
+  }
+
+  .container-indice {
+
+    flex-direction: column;
+  }
+
+  .img-chef {
+
+    width: 50vw;
+    margin: auto;
+
+  }
+
+  .iframe-video {
+
+    width: 75vw;
+    height: 50vw;
+  }
+
+  .nav-bar-footer {
+
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-bar-footer li {
+    margin-bottom: 10px;
+  }
+
+}
+
+
+@media (max-width: 1050px) {
+
+  .avena {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .img-avena {
+
+    width: 90vw;
+  }
+
+  .contenedor-recetas {
+    flex-direction: column;
+  }
+
+  .imagenes-frases {
+    flex-direction: column;
+  }
+
+  .img-item {
+    width: 88vw;
+    border: none;
+
+
+  }
+
+  .contenedor-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-bar-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-bar-footer li {
+    margin-bottom: 10px;
+  }
+
+
+}

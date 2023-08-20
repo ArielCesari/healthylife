@@ -1,0 +1,28 @@
+body{
+
+    text-align: center;
+    background-color: gainsboro;
+    color: rgb(1, 2, 51);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+
+    border: 1px solid black;
+    padding: 30px;
+    margin:20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+
+button{
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
