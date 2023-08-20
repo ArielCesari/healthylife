@@ -24,7 +24,7 @@ const mainController = {
 
     prueba: (req,res) => {
     
-        let array = ["Argentina","Brasil","Buenos Aires","Brasilia"]    
+        let array = ["Argentina"," Brasil"," Colombia"," Chile"]    
         return res.render("prueba",{paises:array})
     }
 

@@ -15,7 +15,7 @@ const mainRouter = require('./routes/mainRouter.js');
 /* Archivos estáticos para buscar archivos en carpeta public */ 
 app.use(express.static("public"));
 
-/*Configuro ruta de vista y establezco el template engine a utilizar. */
+/*Configuro donde se encuentran las vistas  y establezco el template engine a utilizar. */
 app.set('views', path.resolve(__dirname, 'views'));
 app.set("view engine", "ejs")
 

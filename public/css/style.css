@@ -70,6 +70,8 @@ a:hover {
 
 }
 
+
+
 .img-avena {
 
   border-radius: 60px;
@@ -157,6 +159,11 @@ a:hover {
 .boton-mas-recetas {
 
   text-align: center;
+  background-color: lavender;
+  box-shadow: 0px 0px 10px 0px #333 inset;
+  font-weight: bold;
+  border-radius: 10px 20px 10px 20px;
+  padding: 10px;
 }
 
 
@@ -320,12 +327,13 @@ footer ul {
   transition: transform 0.3s ease-in-out;
   display: flex;
   justify-content: center;
+  
 
 }
 
 .mas-recetas button {
 
-  border-radius: 10px 20px 10px 20px;
+  
   cursor: pointer;
   height: 40px;
   border: black solid 1px;
