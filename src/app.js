@@ -24,7 +24,7 @@ app.set("view engine", "ejs")
 app.use("/",mainRouter);
 
 const port = process.env.PORT || 3000;
-app.listen(port, ()=> console.log("Server corriendo en puerto ${port}"));
+app.listen(port, ()=> console.log("Server corriendo en puerto ${port} http://localhost:3000"));
 
 
 
