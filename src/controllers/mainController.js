@@ -29,7 +29,7 @@ const mainController = {
     },
     recetas: (req, res) => {
 
-        return res.render("recetas", { recetasVegetarianas,recetasConCarne})
+        return res.render("recetas", { recetasVegetarianas, recetasConCarne })
     },
 
     motivaciones: (req, res) => {
@@ -42,11 +42,6 @@ const mainController = {
         return res.render("consejos")
     },
 
-    prueba: (req, res) => {
-
-        let array = ["Argentina", " Brasil", " Colombia", " Chile"]
-        return res.render("prueba", { paises: array })
-    }
 
 
 }
