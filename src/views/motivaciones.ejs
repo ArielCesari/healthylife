@@ -15,20 +15,13 @@
     </header>
 
     <div class="imagenes-frases">
-        <img class="img-item" src="/img/frase-1.jpg" alt=" imagen motivacional ">
-        <img class="img-item" src="/img/frase-2.jpg" alt="imagen motivacional">
-        <img class="img-item" src="/img/frase-3.jpg" alt="imagen motivacional">
+        <% for( let i = 0; i < imagenes.length; i++ ) { %>
 
-
-
-        <img class="img-item" src="/img/frase-4.jpg" alt="imagen motivacional">
-        <img class="img-item" src="/img/frase-5.jpg" alt="imagen motivacional">
-        <img class="img-item" src="/img/frase-6.jpg" alt="imagen motivacional">
-
-
-        <img class="img-item" src="/img/frase-7.jpg" alt="imagen motivacional">
-        <img class="img-item" src="/img/frase-8.jpg" alt="imagen motivacional">
-        <img class="img-item" src="/img/frase-9.jpg" alt="imagen motivacional">
+            <img class="img-item" src="/img/frase-<%= i %>.jpg" alt=" imagen motivacional ">
+        
+        <% } %>
+        
+       
     </div>
 
     <%- include("./partials/contacto.ejs") %>

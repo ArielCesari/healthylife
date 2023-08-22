@@ -19,6 +19,20 @@ const recetasConCarne = [
 ]
 
 
+const imagenes = [
+    "frase-1.jpg",
+    "frase-2.jpg",
+    "frase-3.jpg",
+    "frase-4.jpg",
+    "frase-5.jpg",
+    "frase-6.jpg",
+    "frase-7.jpg",
+    "frase-9.jpg",
+    "frase-0.jpg"
+
+]
+
+
 
 /* Creo objeto literal con método a importar */
 const mainController = {
@@ -34,7 +48,7 @@ const mainController = {
 
     motivaciones: (req, res) => {
 
-        return res.render("motivaciones")
+        return res.render("motivaciones",{imagenes})
     },
 
     consejos: (req, res) => {
