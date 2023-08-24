@@ -151,9 +151,14 @@
 
             <div class="contenedor-graficos">
 
-                <img class="img-grafico" src="/img/grafico.png" alt="imagen de grafico">
-                <img class="img-grafico" src="/img/grafico2.jpg" alt="imagen de grafico">
-                <img class="img-grafico" src="/img/grafico3.jpg" alt="imagen de grafico">
+                <% for( let i = 0; i < graficos.length; i++ ) { %>
+
+                    <img class="img-grafico" src="/img/grafico<%= i %>.jpg" alt="imagen de grafico">
+                
+                <% } %>
+
+                
+               
             </div>
 
         </article>

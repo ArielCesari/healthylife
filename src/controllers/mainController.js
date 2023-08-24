@@ -32,6 +32,13 @@ const imagenes = [
 
 ]
 
+const graficos = [
+    "grafico0.jpg",
+    "grafico1.jpg",
+    "grafico2.jpg",
+
+]
+
 
 
 /* Creo objeto literal con método a importar */
@@ -39,7 +46,7 @@ const mainController = {
     // Manejo del pedido get con ruta 
     index: (req, res) => {
         // comunicarse con el modelo, conseguir información
-        return res.render("index");
+        return res.render("index",{graficos});
     },
     recetas: (req, res) => {
 
