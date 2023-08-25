@@ -4,13 +4,23 @@
   box-sizing: border-box;
 }
 
+/* Establezco color predeterminados */
+
+
+:root {
+  --color-beige: #f5f5dc;
+  --color-negro: #000000;
+  --color-azul: #31549a;
+  --color-lavender: #e6e6fa;
+}
+
 /* Establezco propiedades y valores predeterminados para todas las paginas */
 
 html {
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: beige;
-  color: black;
+  background-color: var(--color-beige);
+  color: var(--color-negro);
   margin: 15px;
   text-align: justify;
 }
@@ -22,7 +32,7 @@ html {
   width: 97.5vw;
   border-radius: 30px;
   height: 22vw;
-  
+
 }
 
 
@@ -41,7 +51,7 @@ html {
 a {
   text-decoration: none;
   transition: transform 0.3s ease-in-out;
-  color: #31549a;
+  color: var(--color-azul);
 }
 
 
@@ -54,9 +64,10 @@ a:hover {
   text-align: center;
   margin-top: 10px;
   padding: 5px;
-  color: black;
-  border: solid 1px black;
-  background-color: lavender;
+  color: var(--color-negro);
+  border: solid 1px var(--color-negro);
+  ;
+  background-color: var(--color-lavender);
   box-shadow: 0px 0px 10px 0px #333 inset;
   width: 100%;
   margin: 0;
@@ -79,7 +90,7 @@ a:hover {
   padding: 20px;
   width: 40vw;
   box-shadow: 0px 0px 10px 0px #333 inset;
-  background-color: lavender;
+  background-color: var(--color-lavender);
 
 
 }
@@ -91,7 +102,7 @@ a:hover {
   padding: 20px;
   width: 45vw;
   box-shadow: 0px 0px 10px 0px #333 inset;
-  background-color: lavender;
+  background-color: var(--color-lavender);
 
 
 }
@@ -159,7 +170,7 @@ a:hover {
 .boton-mas-recetas {
 
   text-align: center;
-  background-color: lavender;
+  background-color: rgb(230, 230, 250);
   box-shadow: 0px 0px 10px 0px #333 inset;
   font-weight: bold;
   border-radius: 10px 20px 10px 20px;
@@ -181,13 +192,13 @@ a:hover {
 
 h3 {
 
-  color: #31549a;
+  color: var(--color-azul);
 }
 
 /* FORMULARIO */
 
 #form {
-  background-color: lavender;
+  background-color:var(--color-lavender);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -256,7 +267,7 @@ footer ul {
   padding: 10px;
   width: 45vw;
   border: solid 3px grey;
-  background-color: lavender;
+  background-color: var(--color-lavender);
   box-shadow: 0px 0px 10px 0px #333 inset;
 
 }
@@ -284,7 +295,7 @@ footer ul {
   padding: 20px;
   width: 50vw;
   box-shadow: 0px 0px 10px 0px #333 inset;
-  background-color: lavender;
+  background-color:var(--color-lavender);
 
 
 
@@ -323,20 +334,20 @@ footer ul {
 
 .mas-recetas {
   padding: 10px;
-  color: black;
+  color: var(--color-negro);
   transition: transform 0.3s ease-in-out;
   display: flex;
   justify-content: center;
-  
+
 
 }
 
 .mas-recetas button {
 
-  
+
   cursor: pointer;
   height: 40px;
-  border: black solid 1px;
+  border: var(--color-negro) solid 1px;
 }
 
 .imagenes-frases {
@@ -352,7 +363,7 @@ footer ul {
   width: 29.9vw;
   padding: 15px;
   border: 3px solid;
-  background-color: lavender;
+  background-color: var(--color-lavender);;
   box-shadow: 0px 0px 10px 0px #333 inset;
   margin: 20px;
   border-radius: 60px;
@@ -400,7 +411,7 @@ iframe {
 #button-up {
   width: 40px;
   height: 40px;
-  background-color: lavender;
+  background-color: var(--color-lavender);
   box-shadow: 0px 0px 5px 0px #333 inset;
   display: flex;
   justify-content: center;
